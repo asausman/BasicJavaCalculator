@@ -1,5 +1,3 @@
-package calc;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -64,7 +62,7 @@ public class calc1 extends JFrame implements ActionListener {
             }
             textField.setText(String.valueOf(result));
         } else {
-            // Store first number and operator
+          
             num1 = Double.parseDouble(textField.getText());
             operator = input.charAt(0);
             textField.setText("");
